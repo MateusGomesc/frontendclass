@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF Científico</title>
+</head>
+<body>
+    <!--Apresentação-->
+    <header>
+        <h1>IF Científico</h1>
+        <p>Formulário de envio de artigo científico</p> <br> <br>
+    </header>
+
+    <!--inicio do formulario-->
+    <form action="./pagina2.html" name="formulario" method="post">
+        <!--dados do aluno-->
+        <div name="aluno" id="aluno">
+            <h3>Dados do aluno:</h3>
+
+            <!--Nome-->
+            <label for="nome"> Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+
+            <!--data de nascimento-->
+            <label for="data"> Data de nascimento: </label>
+            <input type="date" name="data" id="data"> <br> <br>
+
+            <!--telefone-->
+            <label for="telefone"> Telefone: </label>
+            <input type="tel" name="telefone" id="telefone" placeholder="(99) 99999-9999" required>
+
+            <!--email-->
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required> <br> <br>
+
+            <!--Curso-->
+            <label for="">Selecione seu curso: </label>
+            <input type="radio" name="escolha" id="inf"> Informática
+            <input type="radio" name="escolha" id="ele"> Eletrônica
+            <input type="radio" name="escolha" id="cont"> Contabilidade
+            <input type="radio" name="escolha" id="adm"> Administração
+            <input type="radio" name="escolha" id="outro"> Outro <br> <br>
+
+            <!--Endereço-->
+            <label for="nome-endereco"> Endereço: </label>
+            <select name="tipo" id="">
+                <option value="rua">Rua</option>
+                <option value="avenida">Avenida</option>
+                <option value="rodovia">Rodovia</option>
+            </select>
+
+            <input type="text" name="nome-endereco" id="nome-endereco" placeholder="Digite o endereço">
+
+            <label for=""> Estado: </label>
+            <select id="estado" name="estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+
+            <label for="cep"> CEP: </label>
+            <input type="tel" name="cep" id="cep" placeholder="00000-000">
+        </div>
+
+        <!--dados do artigo-->
+        <div name="artigo" id="artigo">
+            <h3>Área do artigo:</h3>
+
+            <!--Tema-->
+            <label for="tema"> Digite o tema do seu artigo: </label>
+            <input type="text" name="tema" id="tema">
+
+            <!--envio do arquivo-->
+            <input type="file"> <br> <br> <br>
+        </div>
+
+        <!--botões-->
+        <button>Enviar</button>
+        <button type="reset">Resetar dados</button>
+    </form>
+</body>
+</html>

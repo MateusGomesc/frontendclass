@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario inscrição</title>
+</head>
+<body>
+    <h1>Envie uma mensagem preenchendo o formulário abaixo:</h1>
+
+    <form action="" name="formulario" method="post">
+        <!--nome-->
+        <label for="nome"> Insira seu nome:</label> <br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required> <br> <br>
+
+        <!--telefone-->
+        <label for="telefone"> Insira seu telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="99999-9999" required> <br> <br>
+
+        <!--email-->
+        <label for="email"> Insira seu e-mail:</label>
+        <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required> <br> <br>
+
+        <!--Envio de conteudo-->
+        <label for=""> Deseja receber nossas atividades?</label> <br>
+        <input type="radio" name="escolha" id="sim"> Sim
+        <input type="radio" name="escolha" id="nao"> Não <br> <br>
+
+        <!--Campo de mensagem-->
+        <label for="mensagem"> Sua mensagem:</label> <br>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea> <br> <br>
+
+        <!--botões-->
+        <a href=""><button>Enviar dados</button></a>
+        <button type="reset">Resetar dados</button>
+    </form>
+</body>
+</html>
