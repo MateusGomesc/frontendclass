@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Oswald', sans-serif;
+    src: url(./fonts/Amiri-Slanted.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+
+div{
+    border: 5px rgb(21, 86, 184) solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-image: url("./img/fundo.jpg");
+    background-size: 100%;
+    padding: 10px;
+}
+
+label{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Id's*/
+#logo{
+    width: 50%;
+    background-color: white;
+    margin-top: 15px;
+    left: 200px;
+    padding: 10px;
+}
+
+#headtitle{
+    margin-top: -25px;
+}
+
+/*Classes*/
+.title{
+    font-family: 'Oswald', sans-serif;
+}
+
+.botao{
+    margin: 5px;
+    margin-top: 2px;
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 25px;
+    width: 75px;
+    background-color: rgb(21, 86, 184);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    box-shadow: 3px 2px black;    
+}
+
+.botao:hover{
+    background-color: white;
+    color: rgb(21, 86, 184);
+    transition: 0.5s;
+}
