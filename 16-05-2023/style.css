@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;800;900&display=swap');
+
+:root{
+    --cor-fundo: #67BAA7;
+    --cor-principal: #001CD4;
+    --cor-secundaria: #0085FF;
+    --cor-complementar: #4E8074;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    height: 200px;
+    border: 2px var(--cor-principal) solid;
+    border-radius: 10px;
+    font-weight: 900;
+    color: var(--cor-complementar);
+}
+
+footer{
+    height: 100px;
+    border: 2px var(--cor-principal) solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+
+footer p{
+    padding: 30px;
+    font-weight: 200;
+}
+
+/*Classes*/
+.titulo-banner{
+    padding: 55px;
+    font-size: 40px;
+}
+
+.conteudo-filme{
+    border: 2px solid var(--cor-principal);
+    border-radius: 10px;
+    width: 49%;
+    display: inline-block;
+    background-color: white;
+}
+
+.conteudo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.conteudo-filme h1{
+    font-weight: 800;
+    color: var(--cor-complementar);
+}
+
+.conteudo-filme p{
+    font-weight: 300;
+}
